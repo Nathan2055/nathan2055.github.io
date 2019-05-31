@@ -1,0 +1,91 @@
+3D Viewer
+7-Zip
+Alarms and Clock
+App Installer
+Apple Application Support
+Apple Mobile Device Support
+Apple Software Update
+AV1 Video Extension
+Bonjour
+Calculator
+Camera
+Dell Touchpad
+Discord
+Electrum
+Feedback Hub
+Game Bar
+Get Help
+GIMP
+GNU Privacy Guard
+Google Chrome
+Google Earth Pro
+Groove Music
+HandBrake
+HEIF Image Extensions
+HEVC Video Extensions
+HexChat
+HP Officejet 6600 Basic Device Software
+Hulu
+InfraRecorder
+Intel Graphics Driver
+iTunes
+Logger Pro 3.9
+Mail and Calendar
+Maps
+Messaging
+Microsoft Edge
+Microsoft Office 365
+Microsoft OneDrive
+Microsoft OneNote 2016
+Microsoft Photos
+Microsoft Solitaire Collection
+Microsoft Store
+Microsoft Visual C++ Redistributable (2010 64 and 32-bit, 2013 64 and 32-bit, 2017 64 and 32-bit)
+Microsoft Visual Studio Code
+Minecraft (Bedrock Edition)
+Movies and TV
+MPEG-2 Video Extension
+Netflix
+NVIDIA PhysX
+OBS Studio
+Office
+OneNote (UWP)
+Oracle VM VirtualBox
+Paint 3D
+People
+Portal 2
+Print 3D
+QuickTime 7
+Realtek Audio COM Components
+Realtek High Definition Audio Driver
+Samsung Magician
+Snip and Sketch
+Spotify
+Steam
+Sticky Notes
+Team Fortress 2
+Tips
+TI Connect CE
+Trend Micro Maximum Security
+Trend Micro Troubleshooting Tool
+uBlock Origin for Edge
+Ubuntu (WSL)
+Update for Windows 10 for x64-based Systems (KB4023057)
+VeraCrypt
+VLC Media Player
+Voice Recorder
+VP9 Video Extensions
+Weather
+Web Media Extensions
+Webp Image Extensions
+Windows Driver Package - Texas Instruments Inc. (SilvrLnk) USB (06/11/2009 1.0.0.0)
+Windows Driver Package - Texas Instruments Inc. (TEIHDUSB) USB (09/02/2009 1.0.0.1)
+Windows Setup Remediations (x64) (KB4023057)
+WinRAR
+Xbox
+Xbox Game Speech Window
+Xbox Live
+Your Phone
+Yubico Authenticator
+YubiKey Manager
+YubiKey Personalization Tool

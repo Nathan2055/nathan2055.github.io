@@ -1,0 +1,91 @@
+# Critical packages to load from DVD
+curl wget man-db gnupg aptitude apt-transport-http openssl ca-certificates less
+
+
+# Packages to load after update
+initramfs-tools firmware-iwlwifi firmware-linux firmware-linux-free firmware-linux-nonfree firmware-amd-graphics firmware-misc-nonfree firmware-realtek intel-microcode amd64-microcode efibootmgr hdparm wodim genisoimage icedax cdrkit-doc vorbis-tools ffmpeg ffmpeg-doc aptitude-doc-en xserver-xorg-video-all xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-dummy xserver-xorg-video-fbdev xserver-xorg-video-nouveau xserver-xorg-video-vesa xserver-xorg-video-vmware xserver-xorg-video-intel xserver-xorg-video-qxl
+
+
+# Packages required for kernel compilation
+libncurses5-dev gcc make git exuberant-ctags bc libssl-dev fakeroot build-essential ncurses-dev xz-utils flex libelf-dev bison
+
+
+# GPG key fingerprints
+1D481CCC - Nathan Larsen
+EFE21092 - Ubuntu CD Key 1
+FBB75451 - Ubuntu CD Key 2
+4F25E3B6 - GPG Key 1
+33BD3F06 - GPG Key 2
+E0856959 - GPG Key 3
+4B092E28 - GPG Key 4
+7F9470E6 - Electrum Key
+3AFDEB23 - GitHub Web Key
+64E6EA7D - Debian CD Key 1
+6294BE9B - Debian CD Key 2
+09EA8AC3 - Debian CD Key 3
+6092693E - Greg Kroah-Hartman
+00411886 - Linus Torvalds
+163E3FB0 - GParted Live CD Key
+45599AFD - Clonezilla Live CD Key
+680D16DE - VeraCrypt Key
+9741E8AC - Arch Linux CD Key
+
+
+# Windows disk image info
+2016-03-13 - Windows 7
+2016-05-22 - Windows 7
+2018-01-24 - Windows 10
+2019-04-04 - 1709 before 1809
+
+
+# Git settings
+[user]
+	name = Nathan Larsen
+	email = nlarsen@nathan2055.com
+	signingkey = BE34927F50D26A4F58F79350E83E87341D481CCC
+[core]
+	autocrlf = true
+	editor = nano -w
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg2
+
+
+# WSL bashrc additions
+# Set "python" to call Python 3 automatically (manually added 2019-04-23)
+alias python=python3
+
+# Make gpg work properly (manually added 2019-04-24)
+export GPG_TTY=$(tty)
+
+
+# Old Debian sources
+deb https://deb.debian.org/debian testing main contrib non-free
+deb-src https://deb.debian.org/debian testing main contrib non-free
+
+deb https://deb.debian.org/debian testing-updates main contrib non-free
+deb-src https://deb.debian.org/debian testing-updates main contrib non-free
+
+deb https://deb.debian.org/debian-security testing/updates main
+deb-src https://deb.debian.org/debian-security testing/updates main
+
+
+# New Debian Sources v1
+deb http://ftp.us.debian.org/debian/ testing main contrib non-free
+deb-src http://ftp.us.debian.org/debian/ testing main contrib non-free
+
+deb http://ftp.us.debian.org/debian/ testing-updates main contrib non-free
+deb-src http://ftp.us.debian.org/debian/ testing-updates main contrib non-free
+
+deb http://security.debian.org/ testing/updates main
+deb-src http://security.debian.org/ testing/updates main
+
+
+# New Debian Sources v2
+deb http://www.gtlib.gatech.edu/debian/ testing main contrib non-free
+deb-src http://www.gtlib.gatech.edu/debian/ testing main contrib non-free
+
+
+# rsync command for Debian images
+rsync -avP mirror.math.princeton.edu::pub/debian-cd/9.9.0/amd64/iso-dvd/ ~/debian/
