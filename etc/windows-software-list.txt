@@ -1,0 +1,32 @@
+7-Zip
+Discord
+Electrum
+GIMP
+GPG
+Google Chrome
+Google Earth Pro
+HandBrake
+HexChat
+HP Officejet 6600 Drivers
+InfraRecorder
+iTunes
+Microsoft Office
+Microsoft Visual Studio Code
+Minecraft (Bedrock and Java)
+NVIDIA PhysX
+OBS
+OneNote
+VirtualBox
+Samsung Magician
+Spotify
+Steam
+TI Connect CE
+Trend Micro
+uBlock Origin for Edge
+Ubuntu WSL
+VeraCrypt
+VLC
+WinRAR
+Yubico Authenticator
+YubiKey Manager
+YubiKey Personalization Tool

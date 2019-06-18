@@ -1,0 +1,36 @@
+# DVD library configuration
+sudo dpkg-reconfigure libdvd-pkg
+
+# Reinstall GNOME packages
+sudo apt-get install --reinstall --install-suggests -y gnome && sudo apt-get install --reinstall --install-suggests -y gdm3 && sudo apt-cache depends totem | grep '[ |]Depends: [^<]' | cut -d: -f2 | tr -d ' ' | xargs sudo apt-get --reinstall install -y && sudo apt-cache depends gnome | grep '[ |]Depends: [^<]' | cut -d: -f2 | tr -d ' ' | xargs sudo apt-get --reinstall install -y
+
+# Windows disk image dates
+2016-03-13 - Windows 7
+2016-05-22 - Windows 7
+2018-01-24 - Windows 10
+2019-04-04 - 1709 before 1809
+
+# Partclone restore command
+cat ./sda4.ntfs-ptcl-img.gz.* | gzip -d -c | partclone.restore -C -s - -o /media/nlarsen/Holocron/jamie-hdd.img
+
+# Pylint
+/usr/bin/python3 -m pip install -U pylint --user
+Installing collected packages: mccabe, isort, lazy-object-proxy, typed-ast, wrapt, astroid, pylint
+  The script isort is installed in '/home/nlarsen/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  The scripts epylint, pylint, pyreverse and symilar are installed in '/home/nlarsen/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+# Wayback Machine download
+docker run -it -v $PWD:/websites hartator/wayback-machine-downloader http://theproducers.org/ -s -a -c 10
+docker run -it -v $PWD:/websites hartator/wayback-machine-downloader http://theproducers.org/ -c 10
+
+# Disk image commands
+rsync -avP ./Nathan /media/nlarsen/Holocron/2016-03-13\ -\ Windows\ 7\ Data/Nathan
+guestmount -a /media/nlarsen/Holocron/WindowsImageBackup/Nathan-Laptop/Backup 2016-03-13 161750/fb627b45-6464-11e4-9378-806e6f6e6963.vhd -i -r /media/vhd
+rsync -avP ./Users /media/nlarsen/Holocron/Windows/2018-01-24
+cat ./2019-05-18-latitude/sda2.ntfs-ptcl-img.xz.* | xz -d -c | partclone.restore -C -s - -O ./2019-05-18-latitude-ssd.img
+cat ./2019-05-18-latitude/sda2.ntfs-ptcl-img.xz.* | xz -d -c | partclone.ntfs -C -r -W -s - -O ./2019-05-18-latitude-ssd.img
+
+# New restore command
+cat ./2019-05-18-latitude/sda2.ntfs-ptcl-img.xz.* | xz -d -c | partclone.ntfs -C -r -W -s - -O ./2019-05-18-latitude-ssd.img && cat ./2019-05-16-jamietower/sda4.ntfs-ptcl-img.gz.* | gzip -d -c | partclone.ntfs -C -r -W -s - -O ./2019-05-16-jamietower-hdd.img && cat ./2019-05-16-jamietower/sdb2.ntfs-ptcl-img.gz.* | gzip -d -c | partclone.ntfs -C -r -W -s - -O ./2019-05-16-jamietower-ssd.img && gzip -v ./2019-05-18-latitude-ssd.img ./2019-05-16-jamietower-hdd.img ./2019-05-16-jamietower-ssd.img

@@ -1,0 +1,6 @@
+menuentry "Ubuntu 19.04 Live" --class Ubuntu {
+  search -f "--set-root /home/nlarsen/Documents/ISOs/ubuntu-19.04-desktop-amd64.iso"
+  insmod memdisk
+  linux16 /boot/memdisk iso
+  initrd16 /home/nlarsen/Documents/ISOs/ubuntu-19.04-desktop-amd64.iso
+}
