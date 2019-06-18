@@ -1,0 +1,1 @@
+git rebase --exec 'git commit --amend --author="Nathan Larsen <nlarsen@nathan2055.com>" --no-edit -n -S' -i <hash of oldest commit to rebase>
