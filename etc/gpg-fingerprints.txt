@@ -1,0 +1,18 @@
+1D481CCC - Nathan Larsen
+EFE21092 - Ubuntu CD Key 1
+FBB75451 - Ubuntu CD Key 2
+4F25E3B6 - GPG Key 1
+33BD3F06 - GPG Key 2
+E0856959 - GPG Key 3
+4B092E28 - GPG Key 4
+7F9470E6 - Electrum Key
+3AFDEB23 - GitHub Web Key
+64E6EA7D - Debian CD Key 1
+6294BE9B - Debian CD Key 2
+09EA8AC3 - Debian CD Key 3
+6092693E - Greg Kroah-Hartman
+00411886 - Linus Torvalds
+163E3FB0 - GParted Live CD Key
+45599AFD - Clonezilla Live CD Key
+680D16DE - VeraCrypt Key
+9741E8AC - Arch Linux CD Key

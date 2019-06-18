@@ -1,0 +1,6 @@
+[user]
+	name = Nathan Larsen
+	email = nlarsen@nathan2055.com
+	signingkey = C5FC6F17C8DD692E
+[commit]
+	gpgsign = true

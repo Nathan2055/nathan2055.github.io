@@ -1,4 +1,0 @@
-tar cvWpsfz /media/nlarsen/drive4.tar.gz /media/nlarsen/44B03C8FB03C8A06
-tar cf - /media/nlarsen/44B03C8FB03C8A06 -P | pv -s $(du -sb /media/nlarsen/44B03C8FB03C8A06 | awk '{print $1}') | gzip > /media/nlarsen/drive4.tar.gz
-gzip -t -v /media/nlarsen/drive4.tar.gz
-tar cf - /media/nlarsen/44B03C8FB03C8A06 -P | pv -s $(du -sb /media/nlarsen/44B03C8FB03C8A06 | awk '{print $1}') | gzip > /media/nlarsen/Holocron/drive4.tar.gz
