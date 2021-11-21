@@ -141,17 +141,8 @@ ul {
     width: device-width
 }
 
-
-/* Global body styling */
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-}
-
-
-/* Autoscaling column styling */
-
+body,
 .col-sm-4 {
+    font-family: 'Roboto', sans-serif;
     background-color: white;
 }
