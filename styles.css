@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(Roboto.woff) format('woff');
+}
 
 html {
     font-family: sans-serif;
