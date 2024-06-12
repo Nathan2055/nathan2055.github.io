@@ -37,8 +37,12 @@ ul {
 
 a {
     color: #337ab7;
-    text-decoration: none;
+    text-decoration: underline;
     background-color: transparent;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 h1,
