@@ -2,8 +2,7 @@
   Link: </favicon.ico>; rel=icon
   Link: </styles-d0418ce5.css>; rel=preload; as=style; type=text/css
   Link: </Roboto-Regular.woff>; rel=preload; as=font; type=font/woff; crossorigin=anonymous
-  Link: </Roboto-Regular.woff>; rel=preload; as=font; type=font/woff; crossorigin=anonymous
-  Link: </Roboto-Regular.woff>; rel=preload; as=font; type=font/woff; crossorigin=anonymous
+  Link: </Roboto-Medium.woff>; rel=preload; as=font; type=font/woff; crossorigin=anonymous
 
 /
   Link: </images/nlarsen1.webp>; rel=preload; as=image; type=image/webp
