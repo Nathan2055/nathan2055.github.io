@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nathan Larsen</title>
+    <link>https://nathan2055.com/</link>
+    <description>Recent content on Nathan Larsen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://nathan2055.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coursework</title>
+      <link>https://nathan2055.com/coursework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nathan2055.com/coursework/</guid>
+      <description>Completed Courses Fall 2017 ENGL 1101 - English Composition I POLS 1101 - Intro to American Government PSYC 1101 - Intro to General Psychology MATH 1111 - College Algebra Spring 2018 ENGL 1102 - English Composition II PHIL 1010 - Critical Thinking AH 1750 - Survey of Art II HIST 2110 - Survey of US History ECON 2100 - Global Economics CSC 1301 - Principles of Computer Science I Fall 2018 SPCH 1000 - Human Communication ENGL 2130 - American Literature MATH 2211 - Calculus I CSC 1302 - Principles of Computer Science II Spring 2019 PHYS 2211 - Principals of Physics I PHYS 2211L - Principals of Physics I Lab MATH 2420 - Discrete Mathematics CSC 2920 - Ethical and Social Issues in Computing Fall 2019 MATH 2212 - Calculus II Spring 2020 PHYS 2212 - Principals of Physics II PHYS 2212L - Principals of Physics II Lab </description>
+    </item>
+    <item>
+      <title>Portfolio</title>
+      <link>https://nathan2055.com/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nathan2055.com/portfolio/</guid>
+      <description>GitHub View My Complete GitHub Profile&#xA;Yet another Articles for creation helper script (contributor) - Script for reviewing draft articles on Wikipedia&#xA;Perspective (creator) - Library to download and rename Minecraft asset files&#xA;Moddle (contributor) - Tool for managing Minecraft mods</description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>https://nathan2055.com/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nathan2055.com/resume/</guid>
+      <description>Summary A highly organized and detail-oriented individual with experience in Java, Python, JavaScript / HTML and Linux administrative tools and a keen interest in back-end software development.&#xA;Education Georgia State University, Bachelor&amp;rsquo;s of Science, Computer Science - Degree Expected 2024 Georgia State University, Associate of Science, Computer Science - GPA: 3.4 - Dean&amp;rsquo;s List; Atlanta, Georgia; 2020 Computer Programming Classes - Start Code; Python, HTML, CSS; Atlanta, Georgia; 2016 Honors and Awards Georgia State University Hackathon - HackGSU; Java, JavaScript, Python; 2018 Atlanta Fulton Library Code Camp - 1st Place; HTML, CSS, JavaScript; 2017 Boy Scouts of America, Eagle Scout; 2014 Technical Skills Programming languages: Python; Java; HTML/CSS; JavaScript; Docker Development platforms: Linux (development using Ubuntu and Debian toolsets); Windows (Windows 7 and 10 and related development platforms such as Visual Studio and the Microsoft Store); Git and GitHub; Raspberry Pi (Raspbian and Ubuntu); Amazon Web Services (S3, EC2, and related tools); Cloudflare (content delivery network and dynamic DNS services); WordPress (content management system); Elementor (leading page builder for WordPress) Non-development: Microsoft Office/Google Docs; Dropbox/Google Drive/OneDrive; Windows (administrative and power user knowledge of Windows 7 and 10); Linux (Red Hat/Fedora and Debian-based platforms); Bitcoin/Ethereum and related cryptocurrency and blockchain systems (general and technical knowledge) Get In Touch Send Me An Email View My LinkedIn Page Professional Experience WT Digital Agency, Inc.</description>
+    </item>
+  </channel>
+</rss>
