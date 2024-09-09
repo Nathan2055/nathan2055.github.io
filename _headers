@@ -1,7 +1,8 @@
 /*
-  Link: </styles-d0418ce5.css>; rel=preload; as=style; type=text/css
-  Link: </Roboto-Regular.woff>; rel=preload; as=font; type=font/woff; crossorigin=anonymous
-  Link: </Roboto-Medium.woff>; rel=preload; as=font; type=font/woff; crossorigin=anonymous
+  Link: </styles/styles-95ac5fcc01.css>; rel=preload; as=style; type=text/css
+  Link: </fonts/Roboto-v32-400-normal-latin.woff2>; rel=preload; as=font; type=font/woff2; crossorigin=anonymous
+  Link: </fonts/Roboto-v32-500-normal-latin.woff2>; rel=preload; as=font; type=font/woff2; crossorigin=anonymous
 
 /
-  Link: </images/nlarsen1.webp>; rel=preload; as=image; type=image/webp
+  Link: </images/NathanLarsen-2023-750px.jxl>; rel=preload; as=image; type=image/jxl
+  Link: </images/NathanLarsen-2023-750px.webp>; rel=preload; as=image; type=image/webp
